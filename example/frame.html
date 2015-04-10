@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title>FrameRouter Example (Child)</title>
+  <script src="/node_modules/commonjs-require-definition/require.js"></script>
+  <script src="/vendor/rsvp/dist/rsvp.js"></script>
+  <script src="/vendor/route-recognizer/dist/route-recognizer.js"></script>
+  <script src="/vendor/router/dist/router.js"></script>
+  <script src="/dist/frame-router.js"></script>
+  <style>
+    body {
+      background-color: #DCDCDC;
+      height: 100%;
+      margin: 0;
+      width: 100%;
+    }
+  </style>
+<body>
+  <nav>
+    <a href="/posts">Posts</a>
+    <a href="/posts/1">Post 1</a>
+    <a href="/posts/2">Post 2</a>
+  </nav>
+  <script src="./frame.js"></script>

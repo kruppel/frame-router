@@ -1,0 +1,18 @@
+{
+  "name": "frame-router",
+  "version": "0.1.0",
+  "description": "Syncs routing between frames.",
+  "devDependencies": {
+    "babel": "^5.0.10",
+    "chai": "^2.2.0",
+    "commonjs-require-definition": "^0.2.0",
+    "karma": "^0.12.31",
+    "karma-babel-preprocessor": "^5.0.1",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-commonjs-preprocessor": "^0.1.1",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.2.3"
+  }
+}
